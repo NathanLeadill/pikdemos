@@ -1,0 +1,58 @@
+{
+  "name": "Sofa Demo",
+  "models": ["sink","mirror", "mirror-cabinate", "handles-knobs", "tall-cabinate",  "WW_Plug", "underSink-cabinate", "tap1"],
+  "materials": ["black", "blue", "green", "grey", "lilac", "white", "yellow", "MIRROR_MATERIAL", "TAPS"],
+  "modelGroups": {
+    "taps": ["tap1", "tap2", "tap3"]
+  },
+  "flowchart": "https://i.imgur.com/LjZlKqY.png",
+  "modelTargets":
+  {
+    "TAPS": [
+      {"tap1": -1}
+    ],
+    "white": [
+      {"sink": -1},
+      {"mirror-cabinate": -1},
+      {"WW_Plug": -1},
+      {"tall-cabinate": -1},
+      {"underSink-cabinate": -1}
+    ],
+    "black": [
+      {"handles-knobs": -1}
+    ],
+    "MIRROR_MATERIAL": [
+      {"mirror": -1}
+    ]
+  },
+  "modelDefaults": [
+    {"taps": "TAPS"}
+  ],
+  "wheelCount": 2,
+  "wheels": {
+    "sinkWheel":
+    {
+      "name": "sinkWheel",
+      "availableModels": ["tap1", "tap2", "tap3"],
+      "wheelLabels": ["TAP 1", "TAP 2", "TAP 3"],
+      "modelGroup": "taps",
+      "position": ["-650", "-150", "-200"],
+      "lineEnd": ["0",  "0",  "0"],
+      "type": "model",
+      "activeModel": "tap1"
+    },
+    "color":
+    {
+      "name": "color",
+      "availableMaterials": ["lilac", "green","grey", "white", "black"],
+      "targetModels": {
+        "models": ["mirror-cabinate","tall-cabinate", "underSink-cabinate"],
+        "modelGroups": []
+      },
+      "wheelLabels": ["Lilac", "Green", "Grey", "White", "Black"],
+      "lineEnd": ["0",  "0",  "0"],
+      "position": ["1000", "-400", "-400"],
+      "activeModel": "tap1"
+    }
+  }
+}

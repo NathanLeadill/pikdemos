@@ -1,0 +1,22 @@
+{
+  "type": "lighting",
+  "toneMapping": 3,
+  "toneMappingExposure": 1.5,
+  "toneMappingWhitePoint": 2.5,
+  "ambientLight": {
+    "intensity": "1",
+    "color": "666666"
+  },
+  "lights": [
+    {
+      "type": "DirectionalLight",
+      "intensity": "0",
+      "color": "ffffff",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    }
+  ]
+}

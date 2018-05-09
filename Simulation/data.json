@@ -1,0 +1,11 @@
+{
+  "atoms": {
+    "hydrogen": {
+      "weight": 1.008
+    },
+    "helium": {
+      "weight": 4.0026
+    }
+
+  }
+}

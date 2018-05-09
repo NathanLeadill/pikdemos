@@ -1,0 +1,12 @@
+.wheel
+{
+  pointer-events: none;
+}
+.wheel svg
+{
+  pointer-events: none;
+}
+.wheel svg path
+{
+  pointer-events: all;
+}

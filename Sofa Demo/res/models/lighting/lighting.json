@@ -1,0 +1,1 @@
+{"type":"lighting","toneMapping":3,"toneMappingExposure":"1.3","toneMappingWhitePoint":"1.9","ambientLight":{"intensity":"0","color":"ffffff"},"lights":[{"type":"DirectionalLight","intensity":"0.3","color":"ffffff","position":{"x":-10,"y":-25,"z":200}}]}
